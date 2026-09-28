@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navcontainer{
+    height: 50px;
+    width: 100vw;
+    background-color: rgba(14, 19, 14, 0.781);
+    justify-content: space-evenly;
+}
+.nav_links{
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    padding: 10px auto;
+    font-size: larger;
+}
+.nav_links a{
+    color:white;
+}
+    
+    
+.Menu{
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image:url("Restaurent-Food.jpg");
+    background-position:cover;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+
+.Our-Menu{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+.Our-Menu h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color:black;
+    padding-bottom: 20px;
+}
+.menus{
+    height:70vh;
+}
+
+
+
+.starters{
+    height: 60px;
+    display:flex;
+    gap:40px;
+    justify-content: center;
+}
+
+.first-card{
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+    height:350px;
+    width:250px;
+    border:2px solid black;
+    
+}
+.first-card img{
+    height:50%;
+    object-fit: cover;
+    width:100%;
+}
+.first-card h1{
+    color: rgb(77, 77, 219);
+}
+
+
+/* .Main-Course{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+} */
+
+
+.Course h1{
+    text-align: center;
+}
+
+.lunch h1{
+    text-align: center;
+    align-items: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:black;
+}
+.lunch{
+    padding-top: 20px;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+
+
+.first-card{
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+    height:350px;
+    width:250px;
+    border:2px solid black;
+    
+}
+.first-card img{
+    height:50%;
+    object-fit: cover;
+    width:100%;
+}
+.first-card h1{
+    color: #ce7c11;
+}
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+

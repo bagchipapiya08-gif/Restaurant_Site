@@ -1,0 +1,454 @@
+*{
+  margin: 0;  
+  padding: 0;
+
+}
+
+.BookFair{
+    height: 90vh;
+    background-image:url("herobook.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hero{
+    height:350px;
+    width:500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    border-radius: 20px;
+    padding-top:150px;
+    padding-left: 150px;
+}
+
+.hero h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(0, 0, 0, 0.61);
+
+}
+
+.hero h2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(34, 19, 20);
+
+}
+
+.hero p{
+    font-size:10;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(25, 0, 116);
+    padding-bottom: 20px;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: rgb(0, 255, 55);
+
+}
+
+.btn button{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(153, 165, 47, 0.719);
+    color: rgb(22, 21, 21)
+
+}
+
+.about{
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.abt{
+    display: flex;
+    gap: 40px;
+
+}
+
+.abt-logo img{
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+
+}
+.abt-content{
+    width: 650px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.abt-content h3{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(204, 95, 22);
+    
+
+}
+
+.abt-content h4{
+    font-size:20;
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(150, 64%, 48%);
+    padding:20px ;
+
+}
+
+.abt-content p{
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    
+} 
+
+.services{
+    height: 90vh;
+
+}
+
+.service{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    object-fit: cover;
+
+}
+
+
+.card {
+    height: 350px;
+    width: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.cards img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+
+}
+
+.card h4{
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+
+}
+
+card button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(109, 216, 114);
+    color: black;
+
+}
+
+.flex-logo{
+    height: 90vh;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    object-fit:cover;
+    object-position: center;
+    padding-bottom: 50px;
+
+}
+
+.kolkata-BookFair{
+    height: 90vh;
+    width: 100px;
+    justify-content: center
+
+}
+
+.kolkata-BookFair{
+    height: 90vh;
+    width: 100px;
+    justify-content: center;
+
+}
+
+.kol{
+    height:350px;
+    padding-bottom: 30px;
+    display:flex;
+    gap:40px;
+    justify-content: center;
+    background-color: rgb(128, 128, 190);
+}
+
+
+.cards{
+    height:300px;
+    width:350px;
+    border:1px solid black;
+    background-color: rgb(225, 228, 64);
+
+}
+
+.cards img{
+    
+   
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card h1{
+    text-align: center;
+    color: rgb(90, 214, 40);
+
+}
+
+.card p{
+    text-align: center;
+    align-items: center;
+
+}
+
+.cards{
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+    background-color:rgb(225, 228, 64);
+
+}
+
+.kolkata-BookFair{
+    height: 90vh;
+    width: 100px;
+    justify-content: center;
+
+}
+
+.kol{
+    height:350px;
+    padding-bottom: 30px;
+    display:flex;
+    gap:40px;
+    justify-content: center;
+    background-color: rgb(128, 128, 190);
+}
+
+
+.cards{
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    background-color: rgb(225, 228, 64);
+
+}
+
+.cards img{
+    
+   
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card h1{
+    text-align: center;
+    color: rgb(90, 214, 40);
+
+}
+
+.card p{
+    text-align: center;
+    align-items: center;
+
+}
+
+.cards{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color:rgb(225, 228, 64);
+
+}     
+   .cards img{
+    height: 50%;
+    object-fit: cover;
+   object-position: center;
+
+   }
+
+   .cards h2{
+    text-align: center;
+    color: #8bac14a1;
+
+   }
+
+   .cards p{
+       text-align: center;
+       align-items: center;
+
+   }
+
+   .cards{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color:rgb(225, 228, 64);
+
+   }
+
+   .cards img{
+     height: 50%;
+    object-fit: cover;
+   object-position: center;
+
+   }
+
+   .cards h3{
+    text-align: center;
+    color: rgba(55, 0, 255, 0.616);
+
+   }
+
+   .cards p{
+    text-align: center;
+       align-items: center;
+    }
+
+    .cards{
+         height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color:rgb(225, 228, 64);
+
+    }
+
+    .cards img{
+        height: 50%;
+    object-fit: cover;
+   object-position: center;
+
+    }
+
+    .cards h4{
+        text-align: center;
+    color: rgba(55, 0, 255, 0.616);
+
+    }
+
+    .cards p{
+         text-align: center;
+       align-items: center;
+    }
+
+    .cards{
+         height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color:rgb(225, 228, 64);
+
+    }
+
+    .cards img{
+         height: 50%;
+    object-fit: cover;
+   object-position: center;
+
+    }
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+

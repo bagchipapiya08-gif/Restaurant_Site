@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navcontainer{
+    height: 50px;
+    width: 100vw;
+    background-color: rgba(14, 19, 14, 0.781);
+    justify-content: space-evenly;
+}
+.nav_links{
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    padding: 10px auto;
+    font-size: larger;
+}
+.nav_links a{
+    color:white;
+}
+
+
+.DeliciousFood{
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image:url("food.png");
+
+
+}
+
+.hero{
+
+     height:350px;
+     width:450px;
+
+}
+
+.hero h1{
+    color:#b1d3bb;
+}
+
+
+.service{
+    height: 70vh;
+
+}
+
+
+
+.card{
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+    height:350px;
+    width:350px;
+    border:2px solid black;
+
+}
+
+.services{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+
+}
+
+.card h2{
+    text-align: center;
+    align-items: center;
+}
+
+.card img{
+    height:50%;
+    object-fit: cover;
+}
+
+
+.paragraph{
+    height:90vh;
+    padding-top:40px;
+}
+
+.para{
+    display:flex;
+    justify-content: center;
+
+}
+
+.para-logo{
+    height:450px;
+    width:450px;
+
+}
+
+.para-logo img{
+    height:50%;
+    object-fit: cover;
+} 
+
+.para-para{
+    height:450px;
+    width:450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutUs{
+    padding: 72px 6%;
+    background: linear-gradient(120deg, #f8f4eb 0%, #edf3ec 100%);
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-heading {
+    color: #173f34;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 38px;
+    line-height: 1.2;
+    margin: 0 auto 36px;
+    text-align: center;
+}
+
+.icon {
+    min-width: 0;
+    min-height: 300px;
+    padding: 24px 20px;
+    border: 1px solid #dedfd5;
+    border-top: 3px solid #d88648;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.78);
+    text-align: center;
+}
+
+.icon img {
+    display: block;
+    width: 112px;
+    height: 112px;
+    object-fit: contain;
+    margin: 0 auto 18px;
+}
+
+.icon h3 {
+    color: #173f34;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 21px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.icon p {
+    color: #50534b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+@media (max-width: 960px) {
+    .about {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .AboutUs {
+        padding: 54px 6%;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    .about-heading {
+        font-size: 31px;
+    }
+}
+.contact-us{
+    height: 80vh;
+    margin-top:100px;
+
+}
+ .contact{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    gap: 70px;
+    padding-top: 50px;
+
+ }
+
+ .contact-us h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ .contact-us p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+ }
+ .contact-form form{
+     margin-left: 100px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+    border-radius: 20px;
+    background-color: rgb(40, 158, 69) ;
+}
+ .contact-form form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border:1px solid black;
+    padding-left: 10px;
+ }
+  contact-form form textarea{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border:1px solid black;
+    padding-left: 10px;
+}
+
+.contact-form form button{
+    
+    border-radius: 10px;
+    background-color: rgb(211, 179, 120);
+    color:rgb(20, 3, 13);
+    font-size: 25px;
+    border:1px solid black;
+
+}
+
+.maps{
+    margin-right: 100px;
+    border:2px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.maps iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

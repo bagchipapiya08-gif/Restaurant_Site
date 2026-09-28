@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="resturant-about.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .Testy-Dishes {
+            width: 100%;
+        }
+
+        .hero {
+            height: 520px;
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.35),
+                                rgba(0, 0, 0, 0.35)),
+                url("restaurant.jpg");
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .hero h1 {
+            color: #ffffff;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 60px;
+            font-weight: 900;
+            line-height: 1.2;
+            text-align: center;
+
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Tablet */
+        @media (max-width: 768px) {
+            .hero {
+                height: 400px;
+            }
+
+            .hero h1 {
+                font-size: 45px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 480px) {
+            .hero {
+                height: 300px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+     <div class="navcontainer">
+            <div class="nav_links">
+                <a href="restaurant.html">Home</a>
+                <a href="resturant-about.html">About Us</a>
+                <a href="restaurent-menu.html">Menu</a>
+                <a href="restaurent-gallery.html">Gallery</a>
+                <a href="restaurent-services.html">Services</a>
+                <a href="restaurent-contact.html">Contact Us</a>
+                
+            </div>
+        </div>
+
+    <section class="Testy-Dishes">
+        <div class="hero">
+            <h1>Good Food Good Mood</h1>
+        </div>
+    </section>
+
+    <section class="our-story">
+        <p class="story-kicker">A place made for gathering</p>
+        <h2>Our Story</h2>
+        <div class="story">
+            <div class="story-logo">
+                <img src="story.jpg" alt="A welcoming table prepared for a shared meal">
+            </div>
+            <div class="story-para">
+                <p>Our story began with a simple love for good food and the way it brings people together. We dreamed
+                    of creating a welcoming place where every table could turn an ordinary meal into a moment worth
+                    sharing.</p>
+                <p>That dream lives on in our kitchen every day. Our chefs work with fresh ingredients, thoughtful
+                    recipes, and a generous dash of creativity to make food that feels both familiar and exciting.</p>
+                <p>Whether you are joining us for a quick bite or a long evening with friends, we are glad you are
+                    here. Pull up a chair, find a new favourite, and make yourself at home.</p>
+            </div>
+        </div>
+    </section>
+    <section class="Our-Mission">
+        
+        <h2>Our- Mission</h2>
+        <div class="Mission">
+            <div class="Mission-para">
+                <p>We bring people together around honest, delicious food. Our mission is to make every visit feel
+                    welcoming, every ingredient count, and every dish worth remembering.</p>
+                <p>From carefully chosen produce to the final touch from our kitchen, we put care into the details
+                    so you can relax, share, and enjoy.</p>
+                <p class="mission-promise">Fresh ingredients. Thoughtful cooking. A seat for everyone.</p>
+            </div>
+            <div class="Mission-logo">
+                <img src="our mission.jpg" alt="A freshly prepared meal served at the restaurant">
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us">
+        <div class="wcu">
+            <div class="vdo">
+                <iframe src="https://www.youtube.com/embed/--MdohXec7M?si=IsIwaNbc9FG1mG9y"
+                    title="A look inside our restaurant" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="list">
+                <p class="section-kicker">The little things make the difference</p>
+                <h2>Why Choose Us</h2>
+                <ul>
+                    <li><strong>Fresh, quality ingredients</strong><span>Selected with care and prepared fresh for every meal.</span></li>
+                    <li><strong>Made by passionate chefs</strong><span>Our kitchen brings skill, creativity, and heart to every plate.</span></li>
+                    <li><strong>Flavours worth coming back for</strong><span>Comforting favourites meet distinctive house specialties.</span></li>
+                    <li><strong>Warm, personal service</strong><span>We want you to feel at home from the moment you arrive.</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="Restaurent-Heilights">
+        <h2>Restaurent-Highlights</h2>
+        <div class="highlight">
+
+            <div class="cards">
+                <h1>10+</h1>
+                <p>Years of Experience</p>
+            </div>
+
+            <div class="cards">
+                <h1>50+</h1>
+
+
+                <p>Delicious Dishes</p>
+
+            </div>
+
+
+            <div class="cards">
+                <h1>5k</h1>
+                <p>Happy Customers</p>
+            </div>
+
+            <div class="cards">
+                <h1>20+</h1>
+                <p>Expert Staff</p>
+            </div>
+
+        </div>
+        <section class="Contact-Us">
+            <h2>Contact-Us</h2>
+            <p>We look forward to serving you delicious food and creating wonderful memories, one plate at a time.</p>
+
+            <div class="contact">
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Name" required><br>
+                        <input type="text" placeholder="Email" required><br>
+                        <textarea placeholder="Message" required></textarea><br>
+                        <button type="submit" class="btn">Explore our Menu</button>
+                    </form>
+                </div>
+
+                <div class="maps">
+                    <iframe src=
+                        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58948.48715022328!2d88.4935878144837!3d22.5686119746798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275350398a5b9%3A0x75e165b244323425!2sNewtown%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1788953590429!5m2!1sen!2sin"
+                        width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+
+                </div>
+
+            
+        </section>
+
+
+
+
+
+
+</body>
+
+</html>

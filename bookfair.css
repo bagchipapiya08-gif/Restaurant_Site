@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.controversy{
+    height:80vh;
+    background-image:url("wikiversity.svg");
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+.hero{
+    height:340px;
+    width:450px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    border:2px;
+    background-color:rgb(224, 173, 173);
+    border: radius 20px;
+    padding: 48px;
+}
+.hero h1{
+     font-size:25px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(35, 12, 121);
+    padding-bottom: 25px;
+
+
+}
+
+.hero p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    padding-bottom: 20px;
+}
+
+.btn
+{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    padding:30px;
+}
+
+.btn button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(3, 139, 14);
+    color:white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid black;
+}
+
+
+.about-class
+{
+    display:flex;
+}
+
+.about{
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.abt img {
+    height:400px;
+    width:400px;
+}
+.abt-content{
+    width:650px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.abt-content h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+
+.abt-content p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    padding-bottom: 20px;
+}
+
+.abt-content button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(3, 139, 14);
+    color:white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(3, 139, 14);
+    color:white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid black;
+}
+
+.fair-points {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background: #f9f1e7;
+}
+
+.points-box {
+    width: 900px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 30px 40px;
+}
+
+.points-box h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1d3f6d;
+    margin-bottom: 20px;
+}
+
+.points-box ul {
+    list-style: disc;
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2d2d2d;
+}
+
+.services{
+    height:90vh;
+    justify-content:center;
+
+}
+
+.service{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.service .card{
+    width: 300px;
+    height: 450px;
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Book Fair img{
+    
+    width: 100%;
+    padding:0px;
+
+}
+
+.Book Fair h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(221, 109, 109);
+    padding-bottom: 20px;
+}
+.Book Fair p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(182, 131, 23);
+    padding-bottom: 20px;
+}
+
+
+.Book Fair .btn{
+
+
+
+    display:flex;
+    justify-content: center;
+    background-color: rgb(124, 197, 130);
+    padding: 10px;
+    align-items: center;
+    margin-left:100px;
+}
+
+
+
+
+
+
+
+
